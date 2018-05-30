@@ -130,11 +130,11 @@ var dictate = new Dictate({
 
 // Private methods (called from the callbacks)
 function __message(code, data) {
-	log.innerHTML = "msg: " + code + ": " + (data || '') + "\n" + log.innerHTML;
+	// log.innerHTML = "msg: " + code + ": " + (data || '') + "\n" + log.innerHTML;
 }
 
 function __error(code, data) {
-	log.innerHTML = "ERR: " + code + ": " + (data || '') + "\n" + log.innerHTML;
+	// log.innerHTML = "ERR: " + code + ": " + (data || '') + "\n" + log.innerHTML;
 }
 
 function __serverStatus(msg) {
